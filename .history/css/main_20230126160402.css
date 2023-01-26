@@ -314,8 +314,12 @@ body, html {
 }
 
 .benefits {
+
     background-color: rgba(248, 152, 64, 1);
+
+    height: 600px;
     position: relative;
+
 }
 
 .benefits::after {
@@ -331,45 +335,4 @@ body, html {
     height: 100%;
     opacity: 0.3;
     mix-blend-mode: multiply;
-}
-
-.benefits-text {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-}
-
-.benefits-text p {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
-    color: #FFFFFF;
-    margin-left: 30px;
-}
-
-.benefits-wrapper {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-column-gap: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.benefits-item img {
-    background-color: #ffffff;
-    border-radius: 20px;
-    min-width: 165px;
-    min-height: 165px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.benefits-item p {
-    margin-top: 20px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
 }
