@@ -295,20 +295,6 @@ body, html {
 .video-desc {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 50px;
-    margin-top: 30px;
-}
-
-.video-desc__item p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 23px;
-    color: #404040;
-}
-
-.video-desc__item iframe {
-    max-width: 555px;
-    max-height: 377px;
-    height: 377px;
-    border-radius: 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }

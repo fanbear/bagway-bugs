@@ -305,10 +305,3 @@ body, html {
     line-height: 23px;
     color: #404040;
 }
-
-.video-desc__item iframe {
-    max-width: 555px;
-    max-height: 377px;
-    height: 377px;
-    border-radius: 20px;
-}
