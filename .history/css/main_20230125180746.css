@@ -1,0 +1,13 @@
+.container {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.bw {
+    background-size: cover;
+    background-position: center;
+    min-height: 660px;
+    padding-top: 30px;
+}

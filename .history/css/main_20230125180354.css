@@ -1,0 +1,12 @@
+.container {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header {
+    background-size: cover;
+    background-position: center;
+    min-height: 660px;
+}
