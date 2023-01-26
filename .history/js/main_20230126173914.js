@@ -22,21 +22,18 @@ document.addEventListener("DOMContentLoaded", () => {
     if (tabImgList && tabThumbnailslist) {
 
         tabThumbnailslist.forEach((item, i) => {
-
             item.addEventListener('click', () => {
                 tabThumbnailslist.forEach(elem => {
                     elem.classList.remove('attribute-tab__item-active');
                 })
                 item.classList.add('attribute-tab__item-active');
-
                 tabImgList.forEach(img => {
                     img.classList.remove('attribute-tab__img-active');
                 })
-                setTimeout(() => {
-                    tabImgList[i].classList.add('attribute-tab__img-active');
-                }, 400)
+                tabImgList[i].classList.add('attribute-tab__img-active');
 
             })
         })
+        console.log(index);
     }
 })

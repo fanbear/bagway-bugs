@@ -20,23 +20,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const tabThumbnailslist = document.querySelectorAll('.attribute__thumbnails-item');
 
     if (tabImgList && tabThumbnailslist) {
+        const index = 0;
 
         tabThumbnailslist.forEach((item, i) => {
-
             item.addEventListener('click', () => {
                 tabThumbnailslist.forEach(elem => {
                     elem.classList.remove('attribute-tab__item-active');
                 })
                 item.classList.add('attribute-tab__item-active');
-
-                tabImgList.forEach(img => {
-                    img.classList.remove('attribute-tab__img-active');
-                })
-                setTimeout(() => {
-                    tabImgList[i].classList.add('attribute-tab__img-active');
-                }, 400)
-
+                index = i;
             })
         })
+        console.log(index);
     }
 })

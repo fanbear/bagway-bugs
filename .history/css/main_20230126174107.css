@@ -534,7 +534,7 @@ body, html {
 .attribute-tab__img img {
     opacity: 0;
     height: 0;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .attribute-tab__img .attribute-tab__img-active {

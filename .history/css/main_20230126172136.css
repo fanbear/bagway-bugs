@@ -514,10 +514,10 @@ body, html {
     height: 110px;
     width: 110px;
     border: 1px solid #ECECEC;
+
     border-radius: 10px;
     margin: 0 15px;
     cursor: pointer;
-    transition: 0.4s;
 }
 
 .attribute__thumbnails-item img {
@@ -531,23 +531,4 @@ body, html {
     align-items: center;
 }
 
-.attribute-tab__img img {
-    opacity: 0;
-    height: 0;
-    transition: 0.3s;
-}
-
-.attribute-tab__img .attribute-tab__img-active {
-    opacity: 1;
-    height: 100%;
-    transition: 0.4s;
-}
-
-.attribute__thumbnails-item:hover {
-    box-shadow: 0 3px 1px #F89840;
-    transition: 0.4s;
-}
-
-.attribute-tab__item-active {
-    box-shadow: 0 3px 1px #F89840;
-}
+.attribute-tab__item-active {}

@@ -22,13 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (tabImgList && tabThumbnailslist) {
 
         tabThumbnailslist.forEach((item, i) => {
-
             item.addEventListener('click', () => {
                 tabThumbnailslist.forEach(elem => {
                     elem.classList.remove('attribute-tab__item-active');
                 })
                 item.classList.add('attribute-tab__item-active');
-
                 tabImgList.forEach(img => {
                     img.classList.remove('attribute-tab__img-active');
                 })
@@ -36,7 +34,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     tabImgList[i].classList.add('attribute-tab__img-active');
                 }, 400)
 
+
             })
         })
+        console.log(index);
     }
 })

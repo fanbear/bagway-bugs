@@ -533,14 +533,14 @@ body, html {
 
 .attribute-tab__img img {
     opacity: 0;
+    display: none;
     height: 0;
-    transition: 0.3s;
 }
 
 .attribute-tab__img .attribute-tab__img-active {
+    display: block;
     opacity: 1;
     height: 100%;
-    transition: 0.4s;
 }
 
 .attribute__thumbnails-item:hover {
