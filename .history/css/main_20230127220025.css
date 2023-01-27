@@ -901,8 +901,8 @@ body, html {
     padding: 15px 20px;
     box-sizing: border-box;
     border-radius: 10px;
+
     counter-increment: order;
-    position: relative;
 }
 
 .order-item p {
@@ -928,10 +928,4 @@ body, html {
     height: 40px;
     border-radius: 20px;
     background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    right: -20px;
-    top: -20px;
 }

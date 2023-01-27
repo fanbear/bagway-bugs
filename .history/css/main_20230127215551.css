@@ -892,7 +892,6 @@ body, html {
     grid-column-gap: 30px;
     position: relative;
     z-index: 2;
-    counter-reset: order;
 }
 
 .order-item {
@@ -901,8 +900,7 @@ body, html {
     padding: 15px 20px;
     box-sizing: border-box;
     border-radius: 10px;
-    counter-increment: order;
-    position: relative;
+    counter-reset: order;
 }
 
 .order-item p {
@@ -918,20 +916,8 @@ body, html {
 }
 
 .order-item::after {
-    content: counter(order);
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #F89840;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    right: -20px;
-    top: -20px;
+    counter-increment: order;
+    content: order;
+    color: #ffffff;
+    font-size: 15px;
 }

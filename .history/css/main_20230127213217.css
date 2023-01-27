@@ -2,7 +2,6 @@ body, html {
     font-family: 'Montserrat';
     color: #404040;
     scroll-behavior: smooth;
-    overflow: hidden;
 }
 
 
@@ -71,7 +70,7 @@ body, html {
     margin-left: -25px;
 }
 
-.bw_left__options img:nth-child(2) {
+.bw_left__options>img:nth-child(1) {
     margin-left: 20px;
 }
 
@@ -837,101 +836,4 @@ body, html {
 
 .bags-wrapper-title span {
     color: #F89840;
-}
-
-.order {
-    background-color: rgba(248, 152, 64, 1);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    padding: 50px 0 70px 0;
-}
-
-.order::after {
-    background-image: url('../img/benefits-bg.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    content: " ";
-    display: block;
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    mix-blend-mode: multiply;
-    top: 0;
-}
-
-.order-title {
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
-    color: #FFFFFF;
-    position: relative;
-    z-index: 2;
-}
-
-.order-subtitle {
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
-    margin-top: 10px;
-    position: relative;
-    z-index: 2;
-}
-
-.order-wrapper {
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
-    grid-column-gap: 30px;
-    position: relative;
-    z-index: 2;
-    counter-reset: order;
-}
-
-.order-item {
-    background-color: #404040;
-    min-height: 136px;
-    padding: 15px 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    counter-increment: order;
-    position: relative;
-}
-
-.order-item p {
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    margin: 0;
-}
-
-.order-item img {
-    margin-bottom: 5px;
-}
-
-.order-item::after {
-    content: counter(order);
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #F89840;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    right: -20px;
-    top: -20px;
 }
