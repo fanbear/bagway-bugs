@@ -498,17 +498,14 @@ body, html {
     color: #404040;
     text-decoration: none;
     transition: 0.4s;
-    border-top: 10px solid transparent;
-    border-left: 8px solid transparent;
-    border-bottom: 10px solid transparent;
 }
 
 .attribute-button:hover {
     color: black;
     background-color: #ffffff;
-    border-top: 25px solid transparent;
-    border-left: 15px solid #84FB8B;
-    border-bottom: 25px solid transparent;
+    border-top: 30px solid transparent;
+    border-left: 20px solid #84FB8B;
+    border-bottom: 30px solid transparent;
     transition: 0.4s;
 }
 

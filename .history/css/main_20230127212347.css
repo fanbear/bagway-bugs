@@ -498,9 +498,6 @@ body, html {
     color: #404040;
     text-decoration: none;
     transition: 0.4s;
-    border-top: 10px solid transparent;
-    border-left: 8px solid transparent;
-    border-bottom: 10px solid transparent;
 }
 
 .attribute-button:hover {

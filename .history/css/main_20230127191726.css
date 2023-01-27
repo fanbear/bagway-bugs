@@ -486,7 +486,6 @@ body, html {
 .attribute-button {
     min-width: 268px;
     height: 56px;
-    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -495,21 +494,6 @@ body, html {
     line-height: 24px;
     background-color: #84FB8B;
     cursor: pointer;
-    color: #404040;
-    text-decoration: none;
-    transition: 0.4s;
-    border-top: 10px solid transparent;
-    border-left: 8px solid transparent;
-    border-bottom: 10px solid transparent;
-}
-
-.attribute-button:hover {
-    color: black;
-    background-color: #ffffff;
-    border-top: 25px solid transparent;
-    border-left: 15px solid #84FB8B;
-    border-bottom: 25px solid transparent;
-    transition: 0.4s;
 }
 
 .attribute-tab {
@@ -808,23 +792,4 @@ body, html {
     position: absolute;
     top: 0;
     right: 0;
-}
-
-.bags-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 70px 0;
-}
-
-.bags-wrapper-title {
-    margin-top: 53px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
-
-    color: #404040;
-}
-
-.bags-wrapper-title span {
-    color: #F89840;
 }
