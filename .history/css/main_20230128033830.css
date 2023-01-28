@@ -1073,7 +1073,7 @@ body, html {
     left: 0;
     right: 0;
     transform: scale(1);
-    animation: animation-slide-down 0.5s;
+    animation: animation-slide-down 0.6s;
 
 }
 
@@ -1097,5 +1097,6 @@ body, html {
         right: 0;
         opacity: 1;
         transform: scale(1);
+        transition: left 0.6s, transform 0.6s;
     }
 }
