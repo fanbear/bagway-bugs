@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return maxHeight;
         }
 
-        slider.querySelector('.slider-wrapper').style.height = (maxSliderHeight(sliderList)) + 'px';
+        slider.querySelector('.slider-wrapper').style.height = (maxSliderHeight(sliderList) + 30) + 'px';
         console.log(maxSliderHeight(sliderList));
     }
 })

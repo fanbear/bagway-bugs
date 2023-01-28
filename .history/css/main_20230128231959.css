@@ -1323,6 +1323,10 @@ body, html {
         margin-left: 0;
     }
 
+    .slider-wrapper {
+        /* min-width: calc(100% - 30px); */
+    }
+
     .reviwes-slider__wrapper {
         min-width: 100%;
     }
@@ -1345,9 +1349,5 @@ body, html {
     .slider-wrapper__prev {
         top: auto;
         left: 40%;
-    }
-
-    footer {
-        padding-bottom: 260px;
     }
 }

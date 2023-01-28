@@ -52,20 +52,10 @@ document.addEventListener('DOMContentLoaded', () => {
         })
 
         const maxSliderHeight = (list) => {
-
-            let maxHeight = 0;
-
-            list.forEach((item) => {
-
-                if (item.offsetHeight > maxHeight) {
-                    maxHeight = item.offsetHeight
-                }
-            })
-
-            return maxHeight;
+            return Array.from(list).reduce((item, nextItem) => { return item.offsetHeight > nextItem.offsetHeight ? item.offsetHeight : nextItem.offsetHeight; })
         }
 
-        slider.querySelector('.slider-wrapper').style.height = (maxSliderHeight(sliderList)) + 'px';
+        slider.querySelector('.slider-wrapper').style.height = (maxSliderHeight(sliderList) + 60) + 'px';
         console.log(maxSliderHeight(sliderList));
     }
 })

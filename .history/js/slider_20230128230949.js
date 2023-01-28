@@ -56,16 +56,17 @@ document.addEventListener('DOMContentLoaded', () => {
             let maxHeight = 0;
 
             list.forEach((item) => {
-
                 if (item.offsetHeight > maxHeight) {
-                    maxHeight = item.offsetHeight
+                    maxHeight = item.offsetHeight;
                 }
-            })
 
+                console.log("первий" + item.offsetHeight);
+            })
             return maxHeight;
+
         }
 
-        slider.querySelector('.slider-wrapper').style.height = (maxSliderHeight(sliderList)) + 'px';
+        slider.querySelector('.slider-wrapper').style.height = (maxSliderHeight(sliderList) + 60) + 'px';
         console.log(maxSliderHeight(sliderList));
     }
 })

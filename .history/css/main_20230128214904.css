@@ -1139,24 +1139,18 @@ body, html {
         padding-top: 250px;
     }
 
-    .bw {
-        position: relative;
-    }
-
     .bw-right {
         position: absolute;
         margin: 0 auto;
-        bottom: -215px;
+        bottom: -155px;
     }
 
     .bw-right__form {
         width: 330px;
-        box-shadow: none;
     }
 
     .video-desc {
         grid-template-columns: 1fr;
-        margin-top: 0;
     }
 
     .video-desc__item iframe {
@@ -1170,184 +1164,10 @@ body, html {
     }
 
     .benefits-text p {
-        font-size: 25px;
+        font-size: 30px;
         line-height: 27px;
         color: #FFFFFF;
         margin-left: 0;
         text-align: center;
-    }
-
-    .benefits-wrapper {
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 20px;
-        padding-top: 0px;
-        padding-bottom: 20px;
-    }
-
-    .attribute {
-        padding: 30px 0;
-    }
-
-    .attribute-title {
-        font-weight: 600;
-        font-size: 28px;
-        line-height: 34px;
-        text-align: center;
-    }
-
-    .attribute-wrapper {
-        grid-template-columns: 1fr;
-    }
-
-    .attribute-tab__img .attribute-tab__img-active {
-        height: 60%;
-    }
-
-    .attribute-tab__thumbnails {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-
-    .attribute__thumbnails-item {
-        margin-bottom: 20px;
-    }
-
-    .attribute-common {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .attribute-tab {
-        max-width: 330px;
-        min-height: 680px;
-    }
-
-    .attribute-discont {
-        text-align: center;
-    }
-
-    .bonus-line__description::after {
-        width: 110px;
-        height: 40px;
-        right: -20px;
-        top: auto;
-        bottom: -21px;
-    }
-
-    .bonus-contact {
-        width: 100%;
-    }
-
-    .bonus-wrapper {
-        grid-template-columns: 1fr;
-    }
-
-    .bonus-wrapper__item {
-        padding-bottom: 30px;
-    }
-
-    .item-title__medium {
-        padding-bottom: 200px;
-    }
-
-    .item-image__thumbnails {
-        left: calc(50% - 128px);
-        top: -280px;
-    }
-
-    .bonus-wrapper__item-image {
-        justify-content: center;
-    }
-
-    .bonus-wrapper__item-subtitle {
-        text-align: center;
-        margin-top: 80px;
-    }
-
-    .bonus-wrapper__item-list::before {
-        display: none;
-    }
-
-    .bonus-wrapper__item-list::after {
-        top: 145px;
-        right: -40px;
-        width: 120px;
-        height: 120px;
-    }
-
-    .bags-wrapper {
-        grid-template-columns: 1fr;
-    }
-
-    .bags-wrapper__item {
-        margin-top: 40px;
-    }
-
-    .bags-wrapper__item img {
-        max-height: 200px;
-        display: flex;
-        margin: 0 auto;
-    }
-
-    .bags-wrapper {
-        padding: 0;
-    }
-
-    .bags-wrapper-title {
-        font-size: 30px;
-        font-weight: 600;
-        line-height: 37px;
-        margin-top: 10px;
-    }
-
-    .order-wrapper {
-        grid-template-columns: minmax(200px, 1fr);
-        grid-row-gap: 40px;
-    }
-
-    .order-item::after {
-        right: calc(50% - 20px);
-        top: -30px
-    }
-
-    .order-item {
-        text-align: center;
-    }
-
-    .order-subtitle {
-        text-align: center;
-    }
-
-    .bw_left__options img:nth-child(2) {
-        margin-left: 0;
-    }
-
-    .reviwes-slider__wrapper {
-        min-width: 100%;
-    }
-
-    .slider-item__desc {
-        padding: 0;
-
-    }
-
-    .slider-item__desc p {
-        font-size: 14px;
-    }
-
-
-    .slider-wrapper__next {
-        top: auto;
-        right: 40%;
-    }
-
-    .slider-wrapper__prev {
-        top: auto;
-        left: 40%;
-    }
-
-    footer {
-        padding-bottom: 260px;
     }
 }

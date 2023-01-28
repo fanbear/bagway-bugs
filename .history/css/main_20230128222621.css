@@ -1139,24 +1139,18 @@ body, html {
         padding-top: 250px;
     }
 
-    .bw {
-        position: relative;
-    }
-
     .bw-right {
         position: absolute;
         margin: 0 auto;
-        bottom: -215px;
+        bottom: -155px;
     }
 
     .bw-right__form {
         width: 330px;
-        box-shadow: none;
     }
 
     .video-desc {
         grid-template-columns: 1fr;
-        margin-top: 0;
     }
 
     .video-desc__item iframe {
@@ -1272,82 +1266,5 @@ body, html {
     .bonus-wrapper__item-list::after {
         top: 145px;
         right: -40px;
-        width: 120px;
-        height: 120px;
-    }
-
-    .bags-wrapper {
-        grid-template-columns: 1fr;
-    }
-
-    .bags-wrapper__item {
-        margin-top: 40px;
-    }
-
-    .bags-wrapper__item img {
-        max-height: 200px;
-        display: flex;
-        margin: 0 auto;
-    }
-
-    .bags-wrapper {
-        padding: 0;
-    }
-
-    .bags-wrapper-title {
-        font-size: 30px;
-        font-weight: 600;
-        line-height: 37px;
-        margin-top: 10px;
-    }
-
-    .order-wrapper {
-        grid-template-columns: minmax(200px, 1fr);
-        grid-row-gap: 40px;
-    }
-
-    .order-item::after {
-        right: calc(50% - 20px);
-        top: -30px
-    }
-
-    .order-item {
-        text-align: center;
-    }
-
-    .order-subtitle {
-        text-align: center;
-    }
-
-    .bw_left__options img:nth-child(2) {
-        margin-left: 0;
-    }
-
-    .reviwes-slider__wrapper {
-        min-width: 100%;
-    }
-
-    .slider-item__desc {
-        padding: 0;
-
-    }
-
-    .slider-item__desc p {
-        font-size: 14px;
-    }
-
-
-    .slider-wrapper__next {
-        top: auto;
-        right: 40%;
-    }
-
-    .slider-wrapper__prev {
-        top: auto;
-        left: 40%;
-    }
-
-    footer {
-        padding-bottom: 260px;
     }
 }

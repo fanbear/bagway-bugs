@@ -1323,6 +1323,10 @@ body, html {
         margin-left: 0;
     }
 
+    .slider-wrapper {
+        /* min-width: calc(100% - 30px); */
+    }
+
     .reviwes-slider__wrapper {
         min-width: 100%;
     }
@@ -1336,18 +1340,12 @@ body, html {
         font-size: 14px;
     }
 
-
     .slider-wrapper__next {
-        top: auto;
-        right: 40%;
+        border-left: 20px solid #F89840;
     }
 
+    .slider-wrapper__next,
     .slider-wrapper__prev {
-        top: auto;
-        left: 40%;
-    }
-
-    footer {
-        padding-bottom: 260px;
+        top: auto
     }
 }

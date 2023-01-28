@@ -1151,12 +1151,11 @@ body, html {
 
     .bw-right__form {
         width: 330px;
-        box-shadow: none;
+        box-shadow: 0none;
     }
 
     .video-desc {
         grid-template-columns: 1fr;
-        margin-top: 0;
     }
 
     .video-desc__item iframe {
@@ -1323,6 +1322,10 @@ body, html {
         margin-left: 0;
     }
 
+    .slider-wrapper {
+        /* min-width: calc(100% - 30px); */
+    }
+
     .reviwes-slider__wrapper {
         min-width: 100%;
     }
@@ -1334,20 +1337,5 @@ body, html {
 
     .slider-item__desc p {
         font-size: 14px;
-    }
-
-
-    .slider-wrapper__next {
-        top: auto;
-        right: 40%;
-    }
-
-    .slider-wrapper__prev {
-        top: auto;
-        left: 40%;
-    }
-
-    footer {
-        padding-bottom: 260px;
     }
 }

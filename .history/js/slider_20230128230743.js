@@ -55,17 +55,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
             let maxHeight = 0;
 
-            list.forEach((item) => {
+            Array.from(list).reduce((item) => {
 
-                if (item.offsetHeight > maxHeight) {
-                    maxHeight = item.offsetHeight
-                }
+                maxHeight = item.offsetHeight < nextItem.offsetHeight ? inextItem.offsetHeight : nextItem.offsetHeight;
+                console.log("первий" + item.offsetHeight, "второй" + nextItem.offsetHeight);
             })
 
-            return maxHeight;
         }
 
-        slider.querySelector('.slider-wrapper').style.height = (maxSliderHeight(sliderList)) + 'px';
+        slider.querySelector('.slider-wrapper').style.height = (maxSliderHeight(sliderList) + 60) + 'px';
         console.log(maxSliderHeight(sliderList));
     }
 })
