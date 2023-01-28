@@ -1071,20 +1071,12 @@ body, html {
     opacity: 1;
     z-index: 1;
     left: 0;
-    right: 0;
     transform: scale(1);
     animation: animation-slide-down 1s;
 
 }
 
-.slider-item__down {
-    z-index: -1;
-    opacity: 0;
-    right: -4000px;
-    left: 0;
-    transform: scale(0);
-    transition: 0.8s;
-}
+.slider-item__active__down {}
 
 @keyframes animation-slide-down {
     0% {
@@ -1094,7 +1086,6 @@ body, html {
 
     100% {
         left: 0;
-        right: 0;
         opacity: 1;
         transform: scale(1);
         transition: left 1s, transform 1s;

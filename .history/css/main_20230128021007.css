@@ -959,7 +959,6 @@ body, html {
     position: relative;
     display: flex;
     overflow-x: hidden;
-    padding: 50px 0 40px 0;
 }
 
 .slider-item {
@@ -967,15 +966,10 @@ body, html {
     flex-direction: column;
     align-items: center;
     flex: 1 0 100%;
-    position: absolute;
-    z-index: -1;
-    opacity: 0;
-    left: -4000px;
-    transform: scale(0);
-    transition: 0.8s;
 }
 
 .user-image {
+    margin-top: 50px;
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -1070,33 +1064,4 @@ body, html {
 .slider-item__active {
     opacity: 1;
     z-index: 1;
-    left: 0;
-    right: 0;
-    transform: scale(1);
-    animation: animation-slide-down 1s;
-
-}
-
-.slider-item__down {
-    z-index: -1;
-    opacity: 0;
-    right: -4000px;
-    left: 0;
-    transform: scale(0);
-    transition: 0.8s;
-}
-
-@keyframes animation-slide-down {
-    0% {
-        transform: scale(0);
-        opacity: 0;
-    }
-
-    100% {
-        left: 0;
-        right: 0;
-        opacity: 1;
-        transform: scale(1);
-        transition: left 1s, transform 1s;
-    }
 }
